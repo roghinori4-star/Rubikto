@@ -371,3 +371,306 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RubikBOOK | کانال تخصصی تیزهوشان ششم تا نهم</title>
+
+  <meta name="description"
+        content="کانال تخصصی تیزهوشان ششم تا نهم؛ آموزش، نمونه سؤال، تمرین و آزمون‌های تیزهوشان.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f4f7ff;
+      color: #182235;
+      line-height: 1.9;
+    }
+
+    header {
+      background: linear-gradient(135deg, #3155d9, #6938d9);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    .container {
+      width: min(1000px, 92%);
+      margin: auto;
+    }
+
+    .intro {
+      background: white;
+      margin-top: -30px;
+      padding: 35px 25px;
+      border-radius: 25px;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .intro h2 {
+      color: #3155d9;
+      margin-bottom: 15px;
+      font-size: 25px;
+    }
+
+    .intro p {
+      font-size: 17px;
+      color: #4c566a;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin: 35px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 28px 20px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 6px 25px rgba(0,0,0,0.06);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .icon {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      color: #3155d9;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #626b7d;
+      font-size: 15px;
+    }
+
+    .rubika {
+      background: linear-gradient(135deg, #3155d9, #6938d9);
+      color: white;
+      border-radius: 25px;
+      text-align: center;
+      padding: 45px 20px;
+      margin: 35px 0;
+    }
+
+    .rubika h2 {
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+
+    .rubika p {
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: #3155d9;
+      text-decoration: none;
+      padding: 14px 28px;
+      border-radius: 14px;
+      font-weight: bold;
+      font-size: 17px;
+      transition: transform 0.2s;
+    }
+
+    .button:hover {
+      transform: scale(1.04);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      color: #697386;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+
+      header {
+        padding: 50px 15px;
+      }
+
+      header h1 {
+        font-size: 23px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      .logo {
+        width: 110px;
+        height: 110px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .intro {
+        padding: 28px 18px;
+      }
+
+      .intro h2 {
+        font-size: 21px;
+      }
+
+      .rubika {
+        padding: 35px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- سربرگ سایت -->
+  <header>
+
+    <!--
+      اگر لوگو داری، فایل آن را کنار index.html
+      قرار بده و نامش را logo.jpg بگذار.
+    -->
+    <img src="logo.jpg" alt="لوگوی RubikBOOK" class="logo">
+
+    <h1>🧠 کانال تخصصی تیزهوشان ششم تا نهم</h1>
+
+    <p>
+      یادگیری، تمرین و موفقیت با RubikBOOK 🎯
+    </p>
+
+  </header>
+
+
+  <main class="container">
+
+    <!-- معرفی -->
+    <section class="intro">
+
+      <h2>به RubikBOOK خوش آمدید! 👋</h2>
+
+      <p>
+        در این سایت می‌توانید به مجموعه‌ای از مطالب آموزشی،
+        نمونه‌سؤال‌ها، تمرین‌ها و آزمون‌های مناسب دانش‌آموزان
+        پایه‌های ششم تا نهم دسترسی داشته باشید.
+      </p>
+
+    </section>
+
+
+    <!-- بخش‌های سایت -->
+    <section class="cards">
+
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>آموزش‌های کاربردی</h3>
+        <p>
+          مطالب آموزشی و نکات مهم برای یادگیری بهتر.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>نمونه سؤال و تمرین</h3>
+        <p>
+          تمرین و نمونه‌سؤال برای تقویت مهارت‌های درسی.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🎯</div>
+        <h3>آزمون‌های تیزهوشان</h3>
+        <p>
+          تمرین‌هایی برای آشنایی بیشتر با سوالات تیزهوشان.
+        </p>
+      </div>
+
+
+      <div class="card">
+        <div class="icon">🧠</div>
+        <h3>نکات حل مسئله</h3>
+        <p>
+          نکات و روش‌های مختلف برای حل بهتر مسائل.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- کانال روبیکا -->
+    <section class="rubika">
+
+      <h2>📱 کانال RubikBOOK</h2>
+
+      <p>
+        برای دریافت مطالب آموزشی و محتوای جدید،
+        به کانال روبیکا ما بپیوندید.
+      </p>
+
+      <a
+        class="button"
+        href="http://rubika.ir/RubikBOOK"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ورود به کانال روبیکا 🚀
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- پایین سایت -->
+  <footer>
+
+    © 2026 RubikBOOK
+    <br>
+    کانال تخصصی تیزهوشان ششم تا نهم
+
+  </footer>
+
+</body>
+</html>
